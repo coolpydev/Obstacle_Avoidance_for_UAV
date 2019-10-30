@@ -28,7 +28,7 @@ geometry_msgs::Point toXY(double longitude, double latitude)
 
 void readWaypointsFile()
 {
-	std::ifstream infile("/home/sarthak/Desktop/Aurora/waypoints.txt");
+	std::ifstream infile("/home/Desktop/Aurora/waypoints.txt");
 	cout << "opened waypoints" << endl;
 	double lati, longi;
 	while (infile >> longi >> lati)
