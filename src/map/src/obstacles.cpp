@@ -18,7 +18,7 @@ double referenceLong;
 
 void readObstacleFile()
 {	
-	std::ifstream infile("/home/sarthak/Desktop/Aurora/obstacles.txt");
+	std::ifstream infile("/home/Desktop/Aurora/obstacles.txt");
 	cout << "opened obstacles" << endl;
 	double x, y, r;
 	double min_dis = 0;
