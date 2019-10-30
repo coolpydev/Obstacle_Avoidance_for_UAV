@@ -78,7 +78,7 @@ void referenceLat_callback(const std_msgs::Float64::ConstPtr& latref)
 
 void readObstacleFile()
 {  
-   std::ifstream infile("/home/sarthak/Desktop/Aurora/obstacles.txt");
+   std::ifstream infile("/home/Desktop/Aurora/obstacles.txt");
    double lati, longi, r_in_feet;
    
    while (infile >> longi >> lati >> r_in_feet)
