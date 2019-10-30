@@ -60,7 +60,7 @@ geometry_msgs::Point toXY(double longitude, double latitude)
 
 void readObstacleFile()
 {	
-	std::ifstream infile("/home/sarthak/Desktop/Aurora/obstacles.txt");
+	std::ifstream infile("/home/Desktop/Aurora/obstacles.txt");
 	cout << "opened obstacles" << endl;
 	double lati, longi, r_in_feet;
 	double min_dis = 0;
